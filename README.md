@@ -4,8 +4,6 @@
 
 #### Sobre o Projeto Final (PT/BR)
 
-#### About the Final Project (EN/US)
-
 
 Depois das aulas semanais, na qual pudemos aprender toda a introdução de Python e algumas Bibliotecas necessárias para o Mercado Financeiro, tivemos que executar nosso trabalho final em cima das seguintes questões:
 
@@ -43,16 +41,22 @@ Você deve obter os seguintes fundamentos:
 ## Exercício 3 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
 
-[VOLTAR](#sobre-o-projeto-final-ptbr)
+[voltar](#sobre-o-projeto-final-ptbr)
 
 ## Exercício 5 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
 
+[voltar](#sobre-o-projeto-final-ptbr)
+
 ## Exercício 6.1 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%203.png)
 
+[voltar](#sobre-o-projeto-final-ptbr)
+
 ## Exercício 6.2 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%204.png)
+
+[voltar](#sobre-o-projeto-final-ptbr)
 
 ## Exercício 8 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%205.png)
@@ -69,10 +73,10 @@ Plotly
 ```
 
 
-[VOLTAR](#ecommerce-ifood)
+[voltar](#sobre-o-projeto-final-ptbr)
 
 
-#### ⭐ About the Final Project (EN/US)
+#### About the Final Project (EN/US)
 
 After the weekly classes, we can learn the entire introduction of Python and some libraries permitted for the Financial Market, mainly to carry out our final work on the following questions:
 
@@ -103,22 +107,42 @@ You should obtain the following fundamentals:
 
 8. Create a panel for the stocks mentioned in question 7, using the same metrics
 
+[back](#about-the-final-project-enus)
 
 ## Exercise 3 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
 
+[back](#about-the-final-project-enus)
+
 ## Exercise 5 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
+
+[back](#about-the-final-project-enus)
 
 ## Exercise 6.1 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%203.png)
 
+[back](#about-the-final-project-enus)
+
 ## Exercise 6.2 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%204.png)
+
+[back](#about-the-final-project-enus)
 
 ## Exercise 8 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%205.png)
 
+[back](#about-the-final-project-enus)
+
+--------------------------------------------------------------------------
+
+### Bibliotecas Utilizadas
+```python
+YFinance
+Nasdaq DataLink
+Plotly
+```
+[back](#about-the-final-project-enus)
 
 
 
