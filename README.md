@@ -2,11 +2,9 @@
 
 <center><img src = "https://github.com/victorncg/pythonforfinance/blob/main/Captura%20de%20tela%202023-07-14%20144104.png?raw=true" width = "600">
 
-#### ⚠️ Sobre o Projeto Final (PT/BR)
-#### ⭐ About the Final Project (EN/US)
+#### Sobre o Projeto Final #(PT/BR)
+#### About the Final Project (EN/US)
 
-
-#### ⚠️ Sobre o Projeto Final (PT/BR)
 
 Depois das aulas semanais, na qual pudemos aprender toda a introdução de Python e algumas Bibliotecas necessárias para o Mercado Financeiro, tivemos que executar nosso trabalho final em cima das seguintes questões:
 
@@ -43,6 +41,8 @@ Você deve obter os seguintes fundamentos:
 
 ## Exercício 3 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
+
+[VOLTAR](#(PT/BR))
 
 ## Exercício 5 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
