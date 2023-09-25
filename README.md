@@ -2,7 +2,9 @@
 
 <center><img src = "https://github.com/victorncg/pythonforfinance/blob/main/Captura%20de%20tela%202023-07-14%20144104.png?raw=true" width = "600">
 
-#### Sobre o Projeto Final #(PT/BR)
+#### Sobre o Projeto Final 
+#(PT/BR)
+
 #### About the Final Project (EN/US)
 
 
