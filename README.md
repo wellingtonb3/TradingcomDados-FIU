@@ -53,31 +53,9 @@ show tables;
 ```
 ---------------------------------------------------------------------------
 
-### Populando a tabela Clientes
-```mysql
-
-desc clients;
--- idClient, type_client, cpf, fname, minit, lname, cnpj, businessname, address, phone_number
-
-insert into clients (type_client, cpf, fname, minit, lname, cnpj, businessname, address, phone_number) values
-	('Pessoa_Física', '29537472910','Maria', 'E', 'Ferreira', null , null, 'Av Treze 41, Jamba - Gusmão', '31 45983385'),
-        ('Pessoa_Jurídica', null, null, null, null, 45284901000321, 'Acording System', 'Rua Jota 32, Pamonhas - Jequi', '41 45983210'),
-	('Pessoa_Física', '29347472910','Maria', 'E', 'Ferreira', null , null, 'Av Treze 41, Jamba - Gusmão', '31 45983385'),
-        ('Pessoa_Física', '48302769178', 'José', 'G', 'Alandra', null, null, 'Rua Santa 52, Gara - Jarandi', '11 49603377'),
-        ('Pessoa_Jurídica', null, null, null, null, 47295789000156, 'Pururu Aços', 'Rua Jota 32, Pamonhas - Jequi', '21 55983567'),
-        ('Pessoa_Física', '48702769331', 'José', 'G', 'Alandra', null, null, 'Rua Dio 36, Ilha - Betiquita', '15 39563355'),
-	('Pessoa_Jurídica', null, null, null, null, 29367912000177, 'Casa Móveis', 'Rua Gari 26, Camba - Jetu', '21 46333567');
-          
-select * from clients;
-```
-
----------------------------------------------------------------------------
-
-
-
 
 ### Populando a tabela Pagamento
-```mysql
+```python
 
 desc payment;
 
