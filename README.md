@@ -44,7 +44,7 @@ Você deve obter os seguintes fundamentos:
 ## Exercício 3 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
 
-[VOLTAR](#(PT/BR))
+[VOLTAR](#projeto-final-do-curso-de-ver%C3%A3o-trading-com-dados-em-parceria-com-a-fiu-florida-international-university)
 
 ## Exercício 5 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
