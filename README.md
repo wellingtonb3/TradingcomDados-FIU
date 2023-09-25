@@ -2,8 +2,7 @@
 
 <center><img src = "https://github.com/victorncg/pythonforfinance/blob/main/Captura%20de%20tela%202023-07-14%20144104.png?raw=true" width = "600">
 
-#### Sobre o Projeto Final 
-#(PT/BR)
+#### Sobre o Projeto Final (PT/BR)
 
 #### About the Final Project (EN/US)
 
@@ -44,7 +43,7 @@ Você deve obter os seguintes fundamentos:
 ## Exercício 3 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
 
-[VOLTAR](#projeto-final-do-curso-de-ver%C3%A3o-trading-com-dados-em-parceria-com-a-fiu-florida-international-university)
+[VOLTAR](#sobre-o-projeto-final-ptbr)
 
 ## Exercício 5 - 
 - [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
