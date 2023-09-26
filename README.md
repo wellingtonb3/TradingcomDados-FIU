@@ -25,7 +25,7 @@ a 2-axis plot of Inflation and the S&P 500 using plotly.
 Hint: Use what you learned in Module 02. Also, the symbol for the S&P 500 in the yfinance library is "^GSPC"
 
 7. Let's create a dataframe with fundamentals for the following companies:
-['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']
+'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META'
 
 You should obtain the following fundamentals:
 
@@ -58,7 +58,7 @@ adj_close.describe()
 ```
 
 ## Exercise 3 - 
-- [Plotting 5 Stocks that I choose]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
+- Plotting 5 Stocks that I choose![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
 
 [back](#about-the-final-project-enus)
 
@@ -71,17 +71,17 @@ adj_close_std
 ```
 
 ## Exercise 5 - 
-- [Plotting these stocks standardized]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
+- Plotting these stocks standardized![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
 
 [back](#about-the-final-project-enus)
 
 ## Exercise 6.1 - 
-- [Measuring the impact of interest rates on the financial market]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%203.png)
+- Measuring the impact of interest rates on the financial market![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%203.png)
 
 [back](#about-the-final-project-enus)
 
 ## Exercise 6.2 - 
-- [Measuring the impact of inflation on the financial market]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%204.png)
+- Measuring the impact of inflation on the financial market![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%204.png)
 
 [back](#about-the-final-project-enus)
 
@@ -96,7 +96,7 @@ use ecommerce1;
 ```
 
 ## Exercise 8 - 
-- [creating a Panel with 'EnterpriseValue', 'Revenue', 'ProfitMargin', 'OperatingMargin','dividendRate', 'beta', 'ebitda']![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%205.png)
+- creating a Panel with 'EnterpriseValue', 'Revenue', 'ProfitMargin', 'OperatingMargin','dividendRate', 'beta', 'ebitda'![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%205.png)
 
 [back](#about-the-final-project-enus)
 
