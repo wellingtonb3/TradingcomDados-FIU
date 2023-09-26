@@ -4,7 +4,7 @@
 
 #### About the Final Project (EN/US)
 
-After completing the weekly classes, we have gained proficiency in Python and the relevant libraries approved for the financial market. This knowledge equips us to successfully complete our final project, addressing the following questions:
+After completing the weekly classes, we have gained proficiency in Python and the relevant libraries for the financial market. This knowledge equips us to successfully complete our final project, addressing the following questions:
 
 1. Obtain Adjusted Close (Adj Close) data for 5 stocks of your preference (they can be from any country)
 
@@ -127,7 +127,7 @@ Plotly
 
 #### Sobre o Projeto Final (PT/BR)
 
-Após concluir as aulas semanais, ganhamos proficiência em Python e nas bibliotecas relevantes homologadas para o mercado financeiro. Esse conhecimento nos capacita para concluir com sucesso nosso projeto final, abordando as seguintes questões:
+Após concluir as aulas semanais, ganhamos proficiência em Python e nas bibliotecas relevantes para o mercado financeiro. Esse conhecimento nos capacita para concluir com sucesso nosso projeto final, abordando as seguintes questões:
 
 1. Obtenha dados de fechamento ajustado (adj close) para 5 ações de sua preferência (podem ser de qualquer país.
 
