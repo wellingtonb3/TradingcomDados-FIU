@@ -120,80 +120,124 @@ Plotly
 
 
 ---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
+## Projeto Final do Curso de Verão Trading com Dados em colaboração com a FIU (Florida International University)
 
-## Projeto Final do Curso de Verão Trading com Dados em colaboração com a FIU Florida International University
 
 #### Sobre o Projeto Final (PT/BR)
 
+Após concluir as aulas semanais, ganhamos proficiência em Python e nas bibliotecas relevantes homologadas para o mercado financeiro. Esse conhecimento nos capacita para concluir com sucesso nosso projeto final, abordando as seguintes questões:
 
-Depois das aulas semanais, na qual pudemos aprender toda a introdução de Python e algumas Bibliotecas necessárias para o Mercado Financeiro, tivemos que executar nosso trabalho final em cima das seguintes questões:
-
-
-1. Obtenha dados de fechamento ajustado (Adj Close) para 5 ações de sua preferência (podem ser de qualquer país)
+1. Obtenha dados de fechamento ajustado (adj close) para 5 ações de sua preferência (podem ser de qualquer país.
 
 2. Para entendermos o comportamento desses dados, utilize a biblioteca pandas para analisar estatísticas básicas de cada ação, como: contagem, média, padrão, mínimo, máximo e percentis.
 
 3. Plote essas ações usando a biblioteca plotly
 
-4. Agora padronize os preços das ações para que todos comecem em 1. Crie um novo dataframe com esses dados.
+4. Agora, padronize os preços das ações para que todos comecem em 1. Crie um novo dataframe com esses dados.
 
 5. Plote os novos dados padronizados usando a biblioteca plotly
 
-6. Agora vamos medir o impacto da inflação e das taxas de juros no mercado financeiro.
+6. Agora, vamos medir o impacto da inflação e das taxas de juros no mercado financeiro.
 
 Usando o que você aprendeu neste curso, crie:
 
-um gráfico de 2 eixos das taxas de juros e do S&P 500 usando plotly.
-um gráfico de 2 eixos da inflação e do S&P 500 usando plotly.
-Dica: use o que você aprendeu no Módulo 02. Além disso, o símbolo do S&P 500 na biblioteca yfinance é "^GSPC"
+um gráfico de 2 eixos das taxas de juros e do S&P 500 usando plotly;
+um gráfico de 2 eixos da inflação e do S&P 500 usando plotly;
+Dica: o símbolo do S&P 500 na biblioteca yfinance é "^GSPC"
 
 7. Vamos criar um dataframe com fundamentos para as seguintes empresas:
-['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']
-
+'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META'
 
 Você deve obter os seguintes fundamentos:
 
-'MarketCap', 'EnterpriseValue', 'Receita', 'ProfitMargin', 'OperatingMargin', 'dividendRate', 'beta', 'ebitda'
+'MarketCap', 'EnterpriseValue', 'Revenue', 'ProfitMargin', 'OperatingMargin','dividendRate', 'beta', 'ebitda'
 
-8. Crie um painel para as ações citadas na questão 7, utilizando as mesmas métricas
+8. Crie um Painel para as ações citadas na questão 7, utilizando as mesmas métricas
+
+[voltar](#sobre-o-projeto-final-ptbr)
 
 
+## Exercício 1 -
+
+```python
+-- Obtendo de dados de fechamento ajustado (Adj Close) para 5 ações:
+
+!pip install yfinance
+import yfinance as yf
+assets = ['PETR4.SA', 'VALE3.SA', 'MGLU3.SA','ITUB4.SA','GOAU4.SA']
+adj_close = yf.download (assets , start = '2020-01-01')['Adj Close']
+adj_close
+```
+
+[voltar](#sobre-o-projeto-final-ptbr)
+
+## Exercício 2 -
+
+```python
+-- Usando a biblioteca pandas para analisar estatísticas básicas de cada ação, como: contagem, média, padrão, mínimo, máximo e percentis
+
+import pandas as pd
+pd.set_option('display.float_format', '{:.1f}'.format)
+adj_close.describe()
+```
+
+[voltar](#sobre-o-projeto-final-ptbr)
 
 ## Exercício 3 - 
-- [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
+- Plotando as 5 Ações que escolhi![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
 
 [voltar](#sobre-o-projeto-final-ptbr)
 
-## Exercício 5 - 
-- [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
+## Exercício 4 -
+
+```python
+-- Padronizando os preços das ações para que todos comecem em 1:
+adj_close_std = adj_close/adj_close.iloc[0]
+adj_close_std
+```
 
 [voltar](#sobre-o-projeto-final-ptbr)
 
-## Exercício 6.1 - 
-- [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%203.png)
+## Exercise 5 - 
+- Plotando as ações padronizadas![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
 
 [voltar](#sobre-o-projeto-final-ptbr)
 
-## Exercício 6.2 - 
-- [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%204.png)
+## Exercise 6.1 - 
+- Medindo o impacto das taxas de juros no mercado financeiro![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%203.png)
 
 [voltar](#sobre-o-projeto-final-ptbr)
 
-## Exercício 8 - 
-- [DIAGRAMA DO BANCO DE DADOS]![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%205.png)
+## Exercise 6.2 - 
+- Medindo o impacto da inflação no mercado financeiro![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%204.png)
 
+[voltar](#sobre-o-projeto-final-ptbr)
 
+## Exercise 7 -
+
+```python
+-- Criando um dataframe com fundamentos para as seguintes empresas:
+['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META']
+```
+
+[voltar](#sobre-o-projeto-final-ptbr)
+
+## Exercise 8 - 
+- creating a Panel with 'EnterpriseValue', 'Revenue', 'ProfitMargin', 'OperatingMargin','dividendRate', 'beta', 'ebitda'![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%205.png)
+
+[voltar](#sobre-o-projeto-final-ptbr)
 
 --------------------------------------------------------------------------
 
-### Principais Bibliotecas
+### Principais Bibliotecas utilizadas
 ```python
 YFinance
 Nasdaq DataLink
 Plotly
 ```
-
-
 [voltar](#sobre-o-projeto-final-ptbr)
 
+
+---------------------------------------------------------------------------------
