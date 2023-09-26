@@ -47,6 +47,8 @@ adj_close = yf.download (assets , start = '2020-01-01')['Adj Close']
 adj_close
 ```
 
+[back](#about-the-final-project-enus)
+
 ## Exercise 2 -
 
 ```python
@@ -56,6 +58,8 @@ import pandas as pd
 pd.set_option('display.float_format', '{:.1f}'.format)
 adj_close.describe()
 ```
+
+[back](#about-the-final-project-enus)
 
 ## Exercise 3 - 
 - Plotting 5 Stocks that I choose![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%201.png)
@@ -69,6 +73,8 @@ adj_close.describe()
 adj_close_std = adj_close/adj_close.iloc[0]
 adj_close_std
 ```
+
+[back](#about-the-final-project-enus)
 
 ## Exercise 5 - 
 - Plotting these stocks standardized![image](https://github.com/wellingtonb3/TradingcomDados-FIU/blob/main/newplot%202.png)
